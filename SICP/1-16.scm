@@ -1,6 +1,6 @@
 #lang racket
  (define (square x) (* x x))
- test 2
+
  (define (fast-expt b n) 
    (define (cube x) (* x x x)) 
    (define (fast-expt-iter b a counter) 
